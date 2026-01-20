@@ -1,2 +1,2 @@
-# warehouse-order-management-CQRS
-Warehouse Order Management API (CQRS + MediatR + Swagger)
+# Warehouse Order Management API (CQRS + MediatR + Swagger)
+
