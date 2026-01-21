@@ -1,7 +1,4 @@
-# Warehouse Order Management API (CQRS + MediatR)
-
-Production-ready .NET 8 API implementing **CQRS**, **Vertical Slice Architecture**, **Domain Events**.
-
+# Warehouse Order Management API (CQRS + MediatR + Swagger)
 
 ## Features
 - CQRS with MediatR (Commands vs Queries)
