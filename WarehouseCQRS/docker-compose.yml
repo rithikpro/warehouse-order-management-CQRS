@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  warehouse-api:
+    build: ./Presentation.Api
+    ports:
+      - "5001:80"
+    environment:
+      - ConnectionStrings__Default=Server=db;Database=Warehouse;User=sa;Password=1q2w3e4r@#
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "1q2w3e4r@#"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
